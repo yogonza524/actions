@@ -15,10 +15,10 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
-greetings:
+  greetings:
 
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
   
-  steps:
-  - name: Say Hello
-    run: echo "Hello Actions World!"
+    steps:
+    - name: Say Hello
+      run: echo "Hello Actions World!"
